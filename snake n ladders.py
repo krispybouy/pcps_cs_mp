@@ -52,7 +52,7 @@ credits1=pygame.image.load("credits.jpg")
 
 pygame.mixer.music.load("music.wav")
 snakesound=pygame.mixer.Sound("snake.wav")
-win=pygame.mixer.Sound("win.wav")
+win=pygame.mixer.Sound("Win.wav")
 lose=pygame.mixer.Sound("lose.wav")
 ladder=pygame.mixer.Sound("ladder.wav")
 
@@ -156,12 +156,6 @@ def button2(text,xmouse,ymouse,x,y,w,h,i,a,fs):
         pygame.draw.rect(GD,i,[x,y,w,h])
     message_display(text,(x+w+x)/2,(y+h+y)/2,fs)    
     
-    
-
-
-
-
-
 
 #Buttons for playing:
 def button1(text,xmouse,ymouse,x,y,w,h,i,a,fs):
